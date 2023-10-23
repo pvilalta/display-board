@@ -8,6 +8,7 @@ dist/
 public/
 .DS_Store
 db.json
+db.*
 
 dist/
 *.env

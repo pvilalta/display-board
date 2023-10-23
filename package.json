@@ -7,6 +7,7 @@
     "install:backend": "cd backend && npm install",
     "install:frontend": "cd frontend && npm install",
     "install:all": "npm run install:backend && npm run install:frontend",
+    "populatedb": "cd backend && ts-node populate-db",
     "dev:backend": "cd backend && npm run start:dev",
     "dev:frontend": "cd frontend && npm run dev",
     "dev:all": "npm run dev:frontend & npm run dev:backend"
