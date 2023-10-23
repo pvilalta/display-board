@@ -22,6 +22,7 @@ API_PORT="3000"
 VITE_APP_PORT=8081
 VITE_API_URI="http://localhost:3000"
 ```
+Following this exemple the frontend will be available at http://localhost:8081
 
 ## run
 ```
