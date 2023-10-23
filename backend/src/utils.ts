@@ -28,7 +28,7 @@ export const checkTimeConflict = (startDate, endDate, messages) => {
     throw new Error('Start date must be before end date');
   }
 
-  if (startDate === currentDateToFormat()) {
+  if (startDate <= currentDateToFormat()) {
     throw new Error('Start date must be after current date');
   }
 
