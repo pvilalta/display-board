@@ -6,6 +6,9 @@ In order to run the project, follow the instructions below
 ```
 npm run install:all
 ```
+```
+npm run populatedb
+```
 
 ## BACKEND .env exemple
 
